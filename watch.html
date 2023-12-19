@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="watch.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <br>
+            <p>
+                <span id="hr">00</span>:
+                <span id="min">00</span>:
+                <span id="sec">00</span>:
+                <span id="ms">00</span>
+            </p>
+            <br><br><br><br>
+            <button class="btn-start" onclick="start()">START</button>
+            <button class="btn-stop"  onclick="stop()">STOP</button>
+            <button class="btn-reset" onclick="reset()">RESET</button>
+            <button id="laps" onclick="lap()">LAPS</button>
+                    
+        </div>
+    </div>
+    
+    <div id="container2">
+
+        <h2 style="text-align: center;">Lap Is Here ==>> </h2>
+
+    </div>
+
+
+    <script src="watch.js"></script>
+</body>
+</html>
